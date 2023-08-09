@@ -3,22 +3,26 @@
 
 **This bot enables you to map a keyword (as an area of query) to answers and it is easy to use.**
 
-1. git clone
-`git clone `
+1. Clone the repo
+`git clone https://github.com/KELs7/telegram-faqbot.git`
 
-2. configure your .env file
+2. Ensure httpx, python-decouple, and ujson are installed (with pip).
+
+3. configure your .env file
 ```
 BOT_TOKEN=<YOUR TELEGRAM BOT TOKEN>
 ADMIN=<YOUR TELEGRAM ID>
 ```
-3. Add bot to group
+Your telegram id is needed so you can be the only one to be able to configure your FAQs.
 
-4. Run bot
+4. Add bot to group
+
+5. Run bot
 `python3 faq_bot.py`
 
 NB: Python 3.10.6 was used to run the bot in its development
 
-5. Create and send a json file to faq bot in private chat on Telegram
+6. Create and send a json file to the faq bot in private chat on Telegram
 faq.json
 ```
 {
@@ -31,7 +35,7 @@ NB: 'help' entry in the json file is mandatory
 
 Edit and resend json file to faq bot if you want to update your FAQs
 
-6. Go to group and test e.g `/faq about_us`
+7. Go to group and test e.g `/faq about_us`
 
 ## Limitations
 * No greeter to prompt new members about questions that can be answered right away
