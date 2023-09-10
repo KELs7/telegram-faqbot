@@ -3,8 +3,7 @@
 
 **This bot enables you to map a keyword (as an area of query) to answers and it is easy to use.**
 
-demo
-![](demo_480.gif)
+![](demo_240.gif)
 
 1. Clone the repo
 `git clone https://github.com/KELs7/telegram-faqbot.git`
